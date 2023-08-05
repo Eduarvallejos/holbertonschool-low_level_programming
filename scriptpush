@@ -1,4 +1,4 @@
 #!/bin/bash
 git add .
-git commit -m "C language exercises 3"
+git commit -m "C language exercises "
 git push

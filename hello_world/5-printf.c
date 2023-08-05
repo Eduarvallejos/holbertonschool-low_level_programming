@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
- * main - punto de entrada del programa.
- * return: Retorna 0 al finalizar.
+ * main - Punto de entrada del programa.
+ * Return: Siempre retorna 0 .
  */
 int main(void)
 {

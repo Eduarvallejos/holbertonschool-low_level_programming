@@ -13,17 +13,15 @@ while (lowercase <= 'z')
 {
 putchar(lowercase);
 lowercase++;
-}
 
-while (uppercase <= 'Z')
+}
+while(uppercase <= 'Z')
 {
 putchar(uppercase);
-uppercase++ ;
+uppercase++;
 }
 
-putchar('$');
 putchar('\n');
 
 return (0);
 }
-

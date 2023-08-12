@@ -1,0 +1,5 @@
+#!/bin/bash
+git add .
+git commit -m "learning functions and nested loops"
+git push
+

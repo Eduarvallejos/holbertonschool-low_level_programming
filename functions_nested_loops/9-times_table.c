@@ -12,7 +12,8 @@ int row, colum, result;
 for (row = 0; row <= 9; row++)
 {
 _putchar('0');
-for (colum = 0; colum <= 9; colum++)
+
+for (colum = 1; colum <= 9; colum++)
 {
 _putchar(',');
 _putchar(' ');

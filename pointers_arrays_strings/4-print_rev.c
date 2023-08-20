@@ -8,16 +8,15 @@
 void print_rev(char *s)
 {
     int length = 0;
+    int i;
 
     while (s[length] != '\0')
     {
         length++;
     }
 
-    int i;  // Declaración movida al principio del bloque
     for (i = length - 1; i >= 0; i--)
     {
         putchar(s[i]);
     }
 }
-

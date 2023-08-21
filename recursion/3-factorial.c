@@ -13,15 +13,9 @@ int factorial(int n)
 	{
 		return (-1);
 	}
-	if (n == 0)
+	if (n == 0 || n == 1)
 	{
 		return (1);
 	}
-
-	while (n > 1)
-	{
-		resultado *= n;
-		n--;
-	}
-	return (resultado);
+	return (n * factorial(n - 1));
 }

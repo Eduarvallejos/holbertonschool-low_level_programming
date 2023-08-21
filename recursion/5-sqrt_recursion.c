@@ -8,26 +8,15 @@
  */
 int _sqrt_recursion(int n)
 {
+	int guess = n / 2;
+
 	if (n < 0)
 	{
 		return (-1);
 	}
-	if (guess * guess == n)
+	while (guess * guess > n)
 	{
-		return (guess);
+		guess--;
 	}
-	else if (guess * guess > n)
-	{
-		return (-1);
-	}
-	return (_sqrt_recursion(n, guess + 1));
-}
-/**
- * find_sqrt - Finds the square root of a number.
- * @n: The number for which to find the square root.
- * Return: The square root of n, or -1 if not found.
- */
-int find_sqrt(int n)
-{
-	return (_sqrt_recursion(n, 1));
+	return (guess);
 }

@@ -4,7 +4,6 @@
  * print_array - print n element of array.
  * @a: array pointed.
  * @n: elements to be printed.
- * Reutrn: dest[0].
  */
 void print_array(int *a, int n)
 {

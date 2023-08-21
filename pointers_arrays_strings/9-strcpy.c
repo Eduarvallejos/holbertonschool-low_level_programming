@@ -5,11 +5,12 @@
  * *_strcpy - copies a string to a buffer.
  * @dest: buffer.
  * @src: strig to be copied.
+ * Return: dest[0].
  */
 char *_strcpy(char *dest, char *src)
 {
 	char *original_dest = dest;
-	
+
 	while (*src != '\0')
 	{
 		*dest = *src;

@@ -7,6 +7,8 @@
  */
 int factorial(int n)
 {
+	int resultado = 1;
+
 	if (n < 0)
 	{
 		return (-1);
@@ -15,7 +17,6 @@ int factorial(int n)
 	{
 		return (1);
 	}
-	int resultado = 1;
 
 	while (n > 1)
 	{

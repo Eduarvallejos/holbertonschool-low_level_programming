@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * create_array - This function create un pointer.
  * @size: Size for our pointer.
@@ -27,7 +28,7 @@ char *create_array(unsigned int size, char c)
 	while (counter < size)
 	{
 	ptr[counter] = c;
-	counter++
+	counter++;
 	}
 	return (ptr);
 }

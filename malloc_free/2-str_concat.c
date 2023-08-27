@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdlib.h>
 #include <string.h>
 
@@ -30,8 +31,9 @@ char *str_concat(char *s1, char *s2)
 
 	result = malloc(len1 + len2 + 1);
 
-	if (result == NULL);
-	
-		return (NULL);
+	if (result == NULL)
+	{
+	return (NULL);
+	}
 	
 }

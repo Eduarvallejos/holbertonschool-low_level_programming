@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "Function pointers exercises from 0 to 3"
+git push
